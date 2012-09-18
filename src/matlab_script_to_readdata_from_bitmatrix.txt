@@ -1,0 +1,8 @@
+//here path should be the location of the file in which the java file creates the output
+// This file takes as an input the binary matrix produced by the java program for 3 nearest neighbour and converts //the matrix to a image
+mat=load('C:\Users\sundi133\workspace\ass3\writeknn.txt')
+[r,c] = size(mat);                           
+imagesc((1:c)+0.5,(1:r)+0.5,mat);  
+colormap(gray);                        
+axis equal                                  
+

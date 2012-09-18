@@ -1,0 +1,164 @@
+DecisionTree using Gain Ratio:
+The decision tree is printed in terms of  equivalent set of rules as learned from the dataset.
+It is seen that the decsion tree is different form the one obtained using information gain.It is because the gain ratio discourages the selection of an attribute which has many informly distributed values. In this case it selects stability in depth 2 instead of ERROR when using Info Gain.
+
+Tree using Gain Ratio
+if( VISIBILITY == "yes") {
+	if( STABILItY == "stab") {
+		if( ERROR == "XL") {
+				AUTO = "1";
+		} else if( ERROR == "LX") {
+				AUTO = "1";
+		} else if( ERROR == "MM") {
+			if( SIGN == "pp") {
+				if( MAGNITUDE == "Medium") {
+					AUTO = "2";
+				} else if( MAGNITUDE == "Strong") {
+					if( WIND == "head") {
+						AUTO = "1";
+					} else if( WIND == "tail") {
+						AUTO = "2";
+					}
+				} else 	if( MAGNITUDE == "OutOfRange") {
+						AUTO = "1";
+				} else if( MAGNITUDE == "Low") {
+					AUTO = "2";
+				}
+			} else if( SIGN == "nn") {
+				AUTO = "1";
+			}
+		} else if( ERROR == "SS") {
+			if( MAGNITUDE == "Medium") {
+				AUTO = "2";
+			} else if( MAGNITUDE == "Strong") {
+				AUTO = "2";
+			} else if( MAGNITUDE == "OutOfRange") {
+				AUTO = "1";
+			} else 	if( MAGNITUDE == "Low") {
+				AUTO = "2";
+			}
+		}
+	} else if( STABILItY == "xstab") {
+		AUTO = "1";
+	}
+} else if( VISIBILITY == "no") {
+	AUTO = "2";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

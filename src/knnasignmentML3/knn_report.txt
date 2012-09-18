@@ -1,0 +1,33 @@
+1.
+64 test case
+Ruuning with  64 size dataset, we see that for all digit, the nearest neighbours obtained are same as the data sample in test data.
+
+Trace:
+nearest 3 neighbours  1,1,1, -  Query Point Digits in Test Data : 1
+nearest 3 neighbours  2,2,2, -  Query Point Digits in Test Data : 2
+nearest 3 neighbours  3,3,3, -  Query Point Digits in Test Data : 3
+nearest 3 neighbours  4,4,4, -  Query Point Digits in Test Data : 4
+nearest 3 neighbours  5,5,5, -  Query Point Digits in Test Data : 5
+nearest 3 neighbours  6,6,6, -  Query Point Digits in Test Data : 6
+nearest 3 neighbours  7,7,7, -  Query Point Digits in Test Data : 7
+nearest 3 neighbours  8,8,8, -  Query Point Digits in Test Data : 8
+nearest 3 neighbours  9,9,9, -  Query Point Digits in Test Data : 9
+nearest 3 neighbours  0,0,0, -  Query Point Digits in Test Data : 0
+
+
+2.
+1024 test case
+Ruuning with  1024 size dataset, we see that for digit 4, the nearest neighbours obtained are:
+different from then obtained in 3NN for 64 bit datasize.
+
+Trace:
+nearest 3 neighbours  1,1,1, -  Query Point Digits in Test Data : 1
+nearest 3 neighbours  2,2,2, -  Query Point Digits in Test Data : 2
+nearest 3 neighbours  3,3,3, -  Query Point Digits in Test Data : 3
+nearest 3 neighbours  4,4,9, -  Query Point Digits in Test Data : 4
+nearest 3 neighbours  5,5,5, -  Query Point Digits in Test Data : 5
+nearest 3 neighbours  6,6,6, -  Query Point Digits in Test Data : 6
+nearest 3 neighbours  7,7,7, -  Query Point Digits in Test Data : 7
+nearest 3 neighbours  8,8,8, -  Query Point Digits in Test Data : 8
+nearest 3 neighbours  9,9,9, -  Query Point Digits in Test Data : 9
+nearest 3 neighbours  0,0,0, -  Query Point Digits in Test Data : 0

@@ -1,0 +1,3 @@
+Please change the location of the input file from where the data is to be read. The code can be executed in eclipse by importing the file to any project and executing directly. Any standard java compilation and execution will do.
+
+To see the images. execute plotknn.m , please provide teh location of the file in which writeknn.txt is created. writeknn,txt contains the calculated data for the 3NN model.

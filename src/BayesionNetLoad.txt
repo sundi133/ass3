@@ -1,0 +1,17 @@
+The code executes the BN and answers the query to a given input.
+
+main methods:
+Probvalues() :  enumerate for all values of the query variable and normalise finally.
+enumerateAsk() :funtion calculate the probability across all variables , marzilisation.
+enumerateAll(): enumeate all the distribution and calls itself recursively
+
+
+Few Traces:
+P(rain|sprinkler,grass_wet)=0.006828057
+P(rain|sprinkler,~grass_wet)=6.2460883E-4
+P(rain|~sprinkler,~grass_wet)=0.07621246
+P(rain|~sprinkler,grass_wet)=1.0
+
+The program when exceuted asks for the query variable and then the conditional variables(this should be inputed in comma separated values with ~ as a negation condition for taking negative conditions) 
+
+Any query can be tested given the probabbilities and the network as described in the graph.xml and prob.xml.

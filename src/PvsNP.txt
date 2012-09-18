@@ -1,0 +1,24 @@
+NP :(
+
+sat
+3sat
+vertex cover
+clique
+MIS
+3 COLORABLE
+Set packing
+Set Cover
+3D Matching
+Hamiltonian Cycle--
+                                |
+Hamiltonian Path---
+Subset Sum---------------------
+                                                  |
+Integer Partitioning-------------
+                                                  |
+Integer Linear Programming--
+
+
+P :)
+2 colorable
+2sat
